@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/index.css";
 
-const AnyComponent = () => {
+const Tasks = () => {
     const [inputValue, setInputValue ] = React.useState('');
     
     const validateInput = () => {
@@ -15,6 +15,8 @@ const AnyComponent = () => {
 }
 
 ReactDOM.render(
-  <AnyComponent />,
+  <Tasks />,
   document.getElementById('container')
 );
+
+export default Tasks;
